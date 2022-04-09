@@ -4,14 +4,12 @@
         <TodoNavbar />
         <div id="todo" class="header">
         <h2>My Todo</h2>
-        <input type="text" id ="list" placeholder="Titile" v-model = "todo" />
-        <span @click="addTodo(todo)" class="add">Add</span>
+        <input type="text" id ="list" placeholder="Titile" v-model ="todo" />
+        <button @click="addTodo(todo)" class="add">Add</button>
     </div>
     <ul id="list">
         <li v-for="(list, i) in $store.state.mytodos" :key="i">{{list.description}}</li>
         <span><button @click="deleteTodo(list.id)">Delete</button></span>
-        <!-- <span><button class="button" v-if="list.is_Completed == false" @click="update(list.id)">Complete</button></span>
-        <span><button class="button" v-if="list.is_Completed == true">Completed</button></span> -->
     </ul>
     </div>
     </div>
@@ -54,7 +52,7 @@ ul {
 }
 .add{
   margin-left:400px;
-  background-color: #0aa3ef; /* Green */
+  background-color: #0aa3ef;
   border: none;
   padding: 15px 15px;
   cursor: pointer;

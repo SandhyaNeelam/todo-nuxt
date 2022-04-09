@@ -5,7 +5,7 @@
         <!-- <div id= "todo" class="navbar"> -->
             <h2>All Todos</h2>
             <ul id="list">
-                <li class="a" v-for="(list, i) in $store.state.alltodos" :key="i">{{list.description}}</li>
+                <li class="a" v-for="(list, i) in $store.state.alltodos" :key="i">Title: {{list.title}} <br> {{list.description}}</li>
             </ul>
             <br>
         </div>
@@ -31,16 +31,15 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 600px;
   background-color: #f1f1f1;
 }
 ul li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
-  background: #eee;
+  background: rgb(6, 215, 156);
   font-size: 18px;
-  transition: 0.2s;
 
   /* make the list items unselectable */
   -webkit-user-select: none;
@@ -79,6 +78,7 @@ ul li.checked::before {
 
 li a {
   display: block;
+  width: 60%;;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;

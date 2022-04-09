@@ -74,7 +74,7 @@ export const actions = {
     },
 
     async update({commit, state}, data) {
-        await this.$axios.put('http://localhost:5161/api/todo-app/' + data ,{is_Completed: true},
+        await this.$axios.put('http://localhost:5161/api/todo-app/' + data ,
         {
             headers: {
                 'Authorization': 'Bearer ' + state.token
