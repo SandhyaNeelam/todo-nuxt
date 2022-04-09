@@ -20,6 +20,7 @@
 <script>
 import Navbar from '~/components/Navbar.vue'
     export default {
+      name:"login",
         components: {
             Navbar
         },

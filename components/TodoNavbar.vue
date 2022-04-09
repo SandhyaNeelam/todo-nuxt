@@ -1,15 +1,12 @@
 <template>
     <div>
-        <!-- <header class="name"> <nuxt-link to = "/">Todo App</nuxt-link>
-        <nav class="menu"> -->
             <!-- <ul> -->
               <div class="topnav">
                 <nuxt-link class= "active" to="/myTodos"><li>MyTodos</li></nuxt-link>
                 <nuxt-link to="/allTodos"><li>All Todos</li></nuxt-link>
+                <nuxt-link to="/"><li>Logout</li></nuxt-link>
               </div>
             <!-- </ul> -->
-        <!-- </nav>
-        </header> -->
     </div>
 </template>
 

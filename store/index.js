@@ -56,7 +56,7 @@ export const actions = {
         await this.$axios.post('http://localhost:5161/api/todo-app', {
           description: data},{
               headers: {
-            'Authorization': 'Bearer ' + this.state.token,
+            Authorization: 'Bearer ' + this.state.token,
               }
         }).then(res => {
 

@@ -4,7 +4,7 @@
         <TodoNavbar />
         <div id="todo" class="header">
         <h2>My Todo</h2>
-        <input type="text" id ="list" placeholder="Titile" v-model ="todo" />
+        <input type="text" id ="todo" placeholder="Titile" v-model ="todo" />
         <button @click="addTodo(todo)" class="add">Add</button>
     </div>
     <ul id="list">
