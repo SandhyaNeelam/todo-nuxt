@@ -1,0 +1,37 @@
+[
+  {
+    "name": "allTodos",
+    "path": "/allTodos",
+    "component": "C:\\\\Users\\\\Nspira\\\\Documents\\\\todo-nuxt\\\\pages\\\\allTodos.vue",
+    "chunkName": "pages/allTodos",
+    "_name": "_3e965c0e"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\Users\\\\Nspira\\\\Documents\\\\todo-nuxt\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_fcd7cbd2"
+  },
+  {
+    "name": "myTodos",
+    "path": "/myTodos",
+    "component": "C:\\\\Users\\\\Nspira\\\\Documents\\\\todo-nuxt\\\\pages\\\\myTodos.vue",
+    "chunkName": "pages/myTodos",
+    "_name": "_588e4fcf"
+  },
+  {
+    "name": "todos",
+    "path": "/todos",
+    "component": "C:\\\\Users\\\\Nspira\\\\Documents\\\\todo-nuxt\\\\pages\\\\todos.vue",
+    "chunkName": "pages/todos",
+    "_name": "_e0ef2cca"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Nspira\\\\Documents\\\\todo-nuxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_90271200"
+  }
+]
